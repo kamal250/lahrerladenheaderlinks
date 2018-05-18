@@ -1,0 +1,6 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Framework/ObjectManager/etc/config.xsd">
+    <!--<type name="Magento\Framework\View\Element\Html\Links">
+    	<plugin name="iflair_lahrerladenheaderlinks" type="IFlair\LahrerladenHeaderLinks\Block\Links" sortOrder="10" disabled="false" />
+	</type>-->
+	<preference for="Magento\Framework\View\Element\Html\Links" type="IFlair\LahrerladenHeaderLinks\Block\Links" />
+</config>
